@@ -1,0 +1,108 @@
+
+TESTS FOR SimpleDate.java:
+
+TESTS FOR ComputerOwnerTester.java:
+
+TESTS FOR Computer.java:
+Intel, an ok one, 16GB Memory, 800GB Hard Drive, Price: $500.00 
+Apple, a bad one, 8GB Memory, 1.0TB Solid State Drive, Price: $600.00 
+Dell, an really bad one, 8GB Memory, 500GB Hard Drive, Price: $400.00 
+Alienware, a good one, 16GB Memory, 2.0TB Solid State Drive, Price: $800.00 
+
+TESTS FOR StreetUSAddress.java:
+BobFerguson(112222),Date and place of birthDate and place of birth: 2000-02-14, Seattle, Washington, USA,623 Maple Street
+Boston, MA 02101
+
+TESTS FOR StreetUSAddress.java:
+725 5th Ave
+New York, NY 10022
+123 Park Ave
+124 Park Ave
+San Francisco, CA 94016
+
+TESTS FOR DateAndPlaceOfBirth.java:
+
+TESTS FOR SimpleDate.java:
+assignment01.SimpleDate@3cd1a2f1
+true
+
+TESTS FOR SimpleDate.java:
+assignment01.SimpleDate@3cd1a2f1
+true
+
+TESTS FOR SimpleDate.java:
+2004,2,9
+true
+
+TESTS FOR SimpleDate.java:
+2004,2,9
+2005,5,1
+true
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 1975-04-25, Binghamton, New York, USA
+Date and place of birth: 1975-04-25, Houston, Texas, USA
+Date and place of birth: 1985-04-25, Moscow, Russia
+Date and place of birth: 2008-10-17, San Diego, California, USA
+Date and place of birth: 2013-05-02, Hell, Norway
+true
+true
+false
+false
+true
+false
+false
+false
+false
+false
+true
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+true
+true
+true
+true
+true
+true
+true
+true
+true
+
+TESTS FOR ComputerOwnerTester.java:
+Computer List, Owner: BillGates(333445555),Date and place of birthDate and place of birth: 1955-10-28, Seattle, WA, USA,123 Main Street
+Portland, OR 97035
+Computers: [Microsoft, a decent one, 8GB Memory, 750GB Solid State Drive, Price: $700.00 , Samsung, a terrible one, 4GB Memory, 500GB Hard Drive, Price: $400.00 , MSI, a powerful one, 8GB Memory, 1.0TB Solid State Drive, Price: $1500.00 , HP, a mediocre one, 16GB Memory, 500GB Hard Drive, Price: $600.00 ]
+Computer List, Owner: BillGates(333445555),Date and place of birthDate and place of birth: 1955-10-28, Seattle, WA, USA,123 Main Street
+Portland, OR 97035
+Computers: [Samsung, a terrible one, 4GB Memory, 500GB Hard Drive, Price: $400.00 , HP, a mediocre one, 16GB Memory, 500GB Hard Drive, Price: $600.00 ]
+
+TESTS FOR StreetUSAddress.java:
+BobFerguson(112222),Date and place of birthDate and place of birth: 2000-02-14, Seattle, Washington, USA,623 Maple Street
+Boston, MA 02101
+
+TESTS FOR SimpleDate.java:
+2004,2,9
+2005,5,1
+true
+
+TESTS FOR Person.java:
+BobFerguson(112222),Date and place of birthDate and place of birth: 2000-02-14, Seattle, Washington, USA,623 Maple Street
+Boston, MA 02101

@@ -5,45 +5,17 @@ import java.io.FileOutputStream;
 import java.io.PrintWriter;
 public class ComputerTester {
 	public static void main(String[] args) {
-	//TODO make 4 different Computer objects with different 
+	//TODO make 4 different Computer objects with different
 	//combinations of disk size (two more than a terabyte and two less)
 	//and for each make one an SSD drive and the other not.
 	//Then call System.out.println(comp); for each "comp" object
 	//and observe that there are small differences in how the computer
+	Computer comp1 = new Computer("Intel", "an ok one", 16, 800, false, 500.00);
+	Computer comp2 = new Computer("Apple", "a bad one", 8, 1000, true, 600.00);
+	Computer comp3 = new Computer("Dell", "an really bad one", 8, 500, false, 400.00);
+	Computer comp4 = new Computer("Alienware", "a good one", 16, 2000, true, 800.00);
 	//information prints out.
-		public comp1(String aBrand, String cpuDesc, int ram, int disk, boolean ssd, double purchPrice) {
-			brand = "Intel";
-			cpuDescription = cpuDesc;
-			ramGB = "16gb";
-			diskGB = "800mb";
-			SSD = "None";
-			purchasePrice = "$500";
-		}
-		public comp2(String aBrand, String cpuDesc, int ram, int disk, boolean ssd, double purchPrice) {
-			brand = "Apple";
-			cpuDescription = cpuDesc;
-			ramGB = "8gb";
-			diskGB = "1tb";
-			SSD = "a bad one";
-			purchasePrice = "$600";
-		}
-		public comp3(String aBrand, String cpuDesc, int ram, int disk, boolean ssd, double purchPrice) {
-			brand = "Dell";
-			cpuDescription = cpuDesc;
-			ramGB = "8gb";
-			diskGB = "500mb";
-			SSD = "None";
-			purchasePrice = "400";
-		}
-		public comp4(String aBrand, String cpuDesc, int ram, int disk, boolean ssd, double purchPrice) {
-			brand = "Alienware";
-			cpuDescription = cpuDesc;
-			ramGB = "16gb";
-			diskGB = "2tb";
-			SSD = "a good one";
-			purchasePrice = "$800";
-		}
-		System.out.println(comp1);
+		System.out.print(comp1);
 		System.out.println(comp2);
 		System.out.println(comp3);
 		System.out.println(comp4);
@@ -54,47 +26,17 @@ public class ComputerTester {
 		//Copy all your lines above, add an extra "2" to every variable name
 		// and replace every System.out.print or System.out.println
 		// by output.print or output.println
-		}
-		public comp1_2(String aBrand, String cpuDesc, int ram, int disk, boolean ssd, double purchPrice) {
-			brand = "Intel";
-			cpuDescription = cpuDesc;
-			ramGB = "16gb";
-			diskGB = "800mb";
-			SSD = "None";
-			purchasePrice = "$500";
-		}
-		public comp2_2(String aBrand, String cpuDesc, int ram, int disk, boolean ssd, double purchPrice) {
-			brand = "Apple";
-			cpuDescription = cpuDesc;
-			ramGB = "8gb";
-			diskGB = "1tb";
-			SSD = "a bad one";
-			purchasePrice = "$600";
-		}
-		public comp3_2(String aBrand, String cpuDesc, int ram, int disk, boolean ssd, double purchPrice) {
-			brand = "Dell";
-			cpuDescription = cpuDesc;
-			ramGB = "8gb";
-			diskGB = "500mb";
-			SSD = "None";
-			purchasePrice = "400";
-		}
-		public comp4_2(String aBrand, String cpuDesc, int ram, int disk, boolean ssd, double purchPrice) {
-			brand = "Alienware";
-			cpuDescription = cpuDesc;
-			ramGB = "16gb";
-			diskGB = "2tb";
-			SSD = "a good one";
-			purchasePrice = "$800";
-		}
-		output.println(comp1_2);
-		output.println(comp2_2);
-		output.println(comp3_2);
-		output.println(comp4_2);
-		catch (FileNotFoundException e) {
+		Computer comp12 = new Computer("Intel", "an ok one", 16, 800, false, 500.00);
+		Computer comp22 = new Computer("Apple", "a bad one", 8, 1000, true, 600.00);
+		Computer comp32 = new Computer("Dell", "an really bad one", 8, 500, false, 400.00);
+		Computer comp42 = new Computer("Alienware", "a good one", 16, 2000, true, 800.00);
+		output.println(comp12);
+		output.println(comp22);
+		output.println(comp32);
+		output.println(comp42);
+
+	} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
 	}
-}
-
-
+ }

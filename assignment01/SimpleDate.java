@@ -1,32 +1,32 @@
 package assignment01;
+import java.time.LocalDate;
+import java.util.Date;
 public class SimpleDate {
+	private int year;
+	private int month;
+	private int day;
 	public static SimpleDate of(int yr, int m, int d) {
-		var returnValue = new SimpleDate(); 
-		SimpleDate returnValue = SimpleDate.of(2019, 8, 26);
+		var returnValue = new SimpleDate();
 		returnValue.year = yr;
 		returnValue.month = m;
 		returnValue.day = d;
 		return returnValue;
 	}
 	public boolean before(SimpleDate other) {
-		if SimpleDate[0] < other[0] {
+		if (this.year < other.year) {
 			return true;
 		}
-		else if SimpleDate[0] > other[0] {
-			return false;
-		}
-		else if SimpleDate[1] < other[1] {
+		else if (this.month < other.month) {
 			return true;
 		}
-		else if SimpleDate[1] > other[1] {
-			return false;
-		}
-		else if SimpleDate[2] < other[2] {
-				return true
+		else if (this.day < other.day) {
+				return true;
 		}
 		else return false;
 	}
-		
+	@Override
+	public String toString() {
+		return String.format(year + "," + month + "," + day);
+
+	}
 }
-
-
